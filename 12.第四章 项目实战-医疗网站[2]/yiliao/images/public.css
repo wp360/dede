@@ -1,0 +1,106 @@
+/**基本格式开始***************/
+body,div,ul,ol,li,dl,dt,dd,h1,h2,h3,h4,h5,h6,form,input,textarea,p {
+	margin:0px;
+	padding:0px;
+	font-size:13px;
+}
+ul {
+	list-style:none;
+}
+img,a img {
+	border:none;
+}
+a {
+	text-decoration:none;
+}
+a:hover {
+	text-decoration:underline;
+}
+.auto {
+	width:980px;
+	margin:0 auto;
+}
+/**基本格式结束***************/
+#header {
+	width:100%;
+	height:100px;
+	background:#ccc;
+}
+#nav {
+	width:100%;
+	height:39px;
+	background:url(navbg.jpg) repeat-x;
+}
+#nav .auto {
+	background:url(nav_li_bg.jpg) top right no-repeat;
+}
+#nav .auto a {
+	display:block;
+	width:108px;
+	text-align:center;
+	float:left;
+	color:#fff;
+	font-size:14px;
+	font-family:微软雅黑;
+	line-height:39px;
+	background:url(nav_li_bg.jpg) no-repeat;
+	font-weight:bold;
+}
+#nav .auto a:hover {
+	background:url(navliover.jpg);
+	text-decoration:none;
+	color:#1573B0;
+}
+#navMenu {
+	width:100%;
+	height:104px;
+	background:url(sub_navbg1.jpg) repeat-x;
+}
+#navMenu .auto .top {
+	height:38px;
+	line-height:38px;
+	text-align:center;
+}
+#navMenu .auto .top .topSame {
+	float:left;
+	color:#fff;
+	font-size:15px;
+	font-weight:bold;
+}
+#navMenu .auto .top .top00,#navMenu .auto .top .top01 {
+	width:370px;
+}
+#navMenu .auto .top .top02 {
+	width:235px;
+}
+#navMenu .auto .bottom {
+	background:url(sub_probg.jpg) 970px 3px no-repeat;
+}
+#navMenu .auto .bottom .bottomSame {
+	float:left;
+	height:66px;
+	background:url(sub_probg.jpg) 0px 3px no-repeat;
+}
+#navMenu .auto .bottom .bottom00,#navMenu .auto .bottom .bottom01 {
+	width:370px;
+}
+#navMenu .auto .bottom .bottom02 {
+	width:235px;
+}
+#navMenu .auto .bottom .bottomSame ul {
+	width:355px;
+	margin:0 auto;
+	padding:20px 0 0 5px;
+}
+#navMenu .auto .bottom .bottomSame ul li {
+	width:52px;
+	padding:2px 8px;
+	float:left;
+	text-align:center;
+}
+#navMenu .auto .bottom .bottomSame ul li a {
+	color:#1773B1;
+}
+#navMenu .auto .bottom .bottom02 ul {
+	width:215px;
+}

@@ -1,0 +1,105 @@
+#mainBody {
+	background:#fff;
+}
+#mainBody .left {
+	width:696px;
+	float:left;
+}
+#mainBody .left .position {
+	height:32px;
+	line-height:32px;
+	border-top:2px solid #1773B2;
+	border-bottom:1px solid #DFDFDF;
+	color:#8F8F8F;
+	padding-left:35px;
+	background:url(ico2.jpg) 0px center no-repeat;
+}
+#mainBody .left .position a {
+	color:#8F8F8F;
+}
+#mainBody .left .top {
+	margin-top: 25px;
+	margin-left:15px;
+	width: 678px;
+	height:258px;
+	overflow:hidden;
+}
+#mainBody .left .top .topLeft {
+	width:184px;
+	float:left;
+}
+#mainBody .left .top .topLeft .imgTitle {
+	height:45px;
+}
+
+#mainBody .left .top .topLeft .typeList ul li {
+	height:32px;
+	background:url(arrow_r.gif) top right no-repeat;
+	border-bottom:1px solid #E3E3E3;
+}
+#mainBody .left .top .topLeft .typeList ul li a {
+	line-height:32px;
+	color:#333333;
+	display:block;
+	text-indent:10px;
+}
+#mainBody .left .top .topLeft .typeList ul li a:hover {
+	text-decoration:none;
+	color:#fff;
+	background:url(page_Bk_r2_c2.png);
+}
+
+#mainBody .left .top .topRight {
+	width:480px;
+	float:right;
+	
+}
+#mainBody .left .top .topRight .topRight00 img.img {
+	display:block;
+	width:183px;
+	height:108px;
+	float:left;
+}
+#mainBody .left .top .topRight .topRight00 {
+	height:130px;
+	border-bottom:1px dashed #CCCCCC;
+}
+
+#mainBody .left .top .topRight .topRight00 dl.dl {
+	width:280px;
+	height:110px;
+	float:right;
+}
+#mainBody .left .top .topRight .topRight00 dl.dl dt {
+	color:#666666;
+	font-size:20px;
+	font-weight:bold;
+	text-align:center;
+}
+#mainBody .left .top .topRight .topRight00 dl.dl dd {
+	line-height:22px;
+	color:#333;
+	margin:10px 0 0 0;
+}
+#mainBody .left .top .topRight .topRight00 dl.dl dd a {
+	color:#1773B1;
+}
+#mainBody .left .top .topRight .topRight01 {
+	margin-top:10px;
+}
+#mainBody .left .top .topRight .topRight01 ul li {
+	width:215px;
+	float:left;
+	padding:0 10px 0 12px;
+	background:url(libg.jpg) 0px center no-repeat;
+	margin-top:7px;
+}
+#mainBody .left .top .topRight .topRight01 ul li a {
+	color:#666666;
+}
+
+#mainBody .right {
+	background:pink;
+	width:283px;
+	float:right;
+}

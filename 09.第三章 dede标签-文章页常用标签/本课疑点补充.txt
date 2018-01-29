@@ -1,0 +1,9 @@
+{dede:field.keywords/}与{dede:field name='keywords'/}这种写法的效果是一样的
+其他的也是以此类推
+例如：
+{dede:field.body/}和{dede:field name='body'/}是一样的
+{dede:field.description/}和{dede:field name='description'/}是一样的
+等等....
+
+总结：
+{dede:field.字段名称/} 等于 {dede:field name='字段名称'/}
